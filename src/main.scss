@@ -1,0 +1,55 @@
+@import './variables';
+@import './funciones';
+
+@import './header';
+@import './tecno';
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.tittle {
+    width: 80%;
+    margin: 2rem auto;
+
+    #{&}__small {
+        margin: 1rem 0;
+        font-weight: map-get($font-weight, bold);
+
+    }
+}
+
+.logo2 {
+    @include flexcenter;
+
+    background: color(primary);
+    box-shadow: 10px black;
+
+    img {
+        height: 25%;
+        width: 25%;
+        border-radius: 50%;
+        padding: 25px;
+    }
+}
+
+@each $size in $titles {
+    .title__medium-#{$size} {
+        font-size: $size*1px;
+    }
+}
