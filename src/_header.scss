@@ -1,0 +1,92 @@
+.main-header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    padding: 0 10vw;
+    color: color('bg');
+    z-index: 1;
+    background-color: #94D2BD;
+
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+    }
+
+    .nav-links {
+        
+        padding-top: 15px;
+        display: flex;
+        list-style: none;
+        
+
+        .nav-link {
+            
+            color: color('bg');
+
+            a {
+                margin: .2rem;
+                padding: 1rem .5rem;
+            }
+            
+            a:hover {
+                background: color('frio1');
+                color: color('bg');
+            }
+        }
+    }
+
+    .menu-icon {
+        position: relative;
+        padding: 26px 10px;
+        cursor: pointer;
+        z-index: 1;
+        display: block;
+
+        &__line {
+            display: block;
+            position: relative;
+            background: color('bg');
+            height: 2px;
+            width: 20px;
+            border-radius: 4px;
+            transition: background 08s ease;
+
+            &::before, &::after {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                border-radius: 4px;
+                background: color('bg');
+                transition: background 08s ease;
+            }
+            &::before {
+                transform: translateY(-5px)
+            }
+            &::after {
+                transform: translateY(5px);
+            }
+        }
+    }
+
+    .menu-btn {
+        display: none;
+    }
+}
+
+.logo {
+    img {
+        align-content: left;
+       
+        height: 40%;
+        width: 40%;
+        
+
+        cursor: pointer;
+    }
+}
