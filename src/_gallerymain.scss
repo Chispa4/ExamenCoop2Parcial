@@ -1,8 +1,8 @@
 ul{
+	background-color: color('frio1');
 	margin:0;
 	list-style-type: none;
 }
-
 
 #filter-list{
 	display: inline-block;
@@ -10,6 +10,7 @@ ul{
 	border-radius: 30px;
 	padding: 4px;
 	margin:0 0 60px;
+	background-color: color('frio1');
 
     li{
         display: inline-block;

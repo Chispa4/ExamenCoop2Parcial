@@ -20,6 +20,7 @@
 }
 
 * {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -27,6 +28,7 @@
 }
 
 body {
+    margin-top: 10%;
     font-family: 'Montserrat' , sans-serif;
 }
 
@@ -59,4 +61,9 @@ body {
     .title__medium-#{$size} {
         font-size: $size*1px;
     }
+}
+
+
+.gal2{
+    background-image: url(/public/img/a20d81842c1265057028bea78fd6fa58bd87da9d_00.gif);
 }
