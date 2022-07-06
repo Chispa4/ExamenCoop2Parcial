@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Nodo o etiqueta raiz -->
+<listagal>
+    <juego>
+        <nombre>Rust</nombre>
+        <usuario nombre="James" apellido="Cameron" />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>                
+    </juego>
+        
+    <juego>
+        <nombre>Elden Ring</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+
+    <juego>
+        <nombre>Minecraft</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+    <juego>
+        <nombre>Resident Evil</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+    <juego>
+        <nombre>Dark Souls III</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+    <juego>
+        <nombre>Rocket League</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+    <juego>
+        <nombre>Mortal Kombat</nombre>
+        <usuario nombre="James" apellido="Cameron"  />        
+        <subida>
+            <fecha>19 de Septiembre 2013</fecha>
+        </subida>    
+    </juego>
+
+</listagal>
